@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&family=Ysabeau+Infant:ital,wght@1,200&display=swap');
+
+*
+{
+  margin:0px;
+  padding: 0px;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+:root
+{
+  --red:#D01C28;
+  --gray: #5A5959;
+
+
+}
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+  width: 1120px;
+  margin: auto;
+  height: 72px;
+  margin-top: 5px;
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+ 
+}
+.navbar button
+{
+  all: unset;
+    background-color: var(--red);
+    height:30px;
+    width: 80px;
+    color:white;
+    font-weight: bold;
+    padding: 3px 12px;
+    text-align: center;
+}
+.container
+{
+  display: flex;
+  width:820px;
+  margin-left: 100px;
+  /* height: calc(100vh-72px); */
+  height:450px;
+  
+}
+.container h1{
+  font-size: 100px;
+  width: 595px;
+  height: 306px;
+  font-weight: 800;
+  line-height: 95px;
+}
+.container p{
+  color: var(--gray);
+  width:380px;
+  height: 85px;
+}
+.btn{
+  display: flex;
+  gap:42px;
+}
+.btn_first
+{
+    background-color: var(--red);
+    color: white;
+    border: 1px solid red;
+    padding: 5px 8px;
+   
+}
+.btn_sec
+{
+    background-color: transparent;
+    color: var(--gray);
+    border: 1px solid grey;
+    padding: 5px 8px;
+
+   
+}
+
+.image
+{
+  display: flex;
+  gap:20px;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+
+}
+.brand_icon
+{
+  display: flex;
+  gap: 16px;
+  margin-top: -50px;
+}
